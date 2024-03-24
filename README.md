@@ -45,7 +45,7 @@ Additional information on model evaluation parameters :
     python getTags.py
     ```
 
-    It will create a new JSON named "updated_models.json" which contains the Tags related to each model, if the page is not available, it will delete the model from the file.
+    It will create a new JSON named "updated_models.json" using the "open-llm-leaderboard.json" you created earlier. The goal is to go to each model webpage, get the tags related to each LLM and add them to our JSON file. The tags are used as a description for the models since the description files are way too heavy.
 
 5. Use `clustering.py` to get the cluster format.
 
