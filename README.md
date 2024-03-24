@@ -1,2 +1,2 @@
 # mispLLMsGalaxy
-A galaxy of LLMs
+A galaxy of opensource LLMs
