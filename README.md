@@ -63,6 +63,6 @@ Additional information on model evaluation parameters :
     ```
 
 
-    Congratulations, if everything was done correctly, you should find the cluster in the directory "clusters". At each use the cluster file is replaced.
+    Congratulations, if everything was done correctly, you should find the cluster in the directory named "clusters". At each use the cluster file is replaced.
 
 
