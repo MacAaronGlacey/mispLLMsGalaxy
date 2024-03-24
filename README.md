@@ -2,6 +2,8 @@
 A galaxy of opensource LLMs
 
 
+Status : Process almost finish ( i need to check if misp accept thoses objects ) / Readme : not finished a all
+
 How to use 
 
 Use this project in order to extract a json file that contains every public model from https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard :
