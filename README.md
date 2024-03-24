@@ -59,7 +59,7 @@ Additional information on model evaluation parameters :
 
 
     ```
-     clustering.py
+    python clustering.py
     ```
 
 
