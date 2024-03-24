@@ -2,13 +2,13 @@
 
 A MISP-compatible galaxy of opensource LLMs.
 
-## Description
+## Description :
 
 The goal is to create a JSON file that contains every opensource LLMs and their specificities such as their score or their architecture with the MISP galaxy format.
 I could not be more precise about the descriptions of the models being given the size of the files and the large number of  models. That is why, my description fields includes the different tags used to qualify the models.
 I had some issues regarding the scraping of the site https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard since all the data is loaded dynamically and I have not succeeded in getting access to the api to make my own requests. That is why I use the scrape-open-llm-leaderboard tool.
 
-## Source :
+## SourceS :
 
 open_llm_leaderboard : https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
 
@@ -20,15 +20,15 @@ Additional information on model evaluation parameters :
 [Winogrande](https://arxiv.org/abs/1907.10641)
 [GSM8k](https://arxiv.org/abs/2110.14168)
  
-## How to use:
+## How to use :
 
-1. Clone the project:
+1. Clone the project :
 
     ```
     git clone https://github.com/MacAaronGlacey/mispLLMsGalaxy.git
     ```
 
-2. Go to the project directory:
+2. Go to the project directory :
 
     ```
     cd mispLLMsGalaxy
@@ -40,7 +40,7 @@ Additional information on model evaluation parameters :
 
     Do not forget to specify the JSON format for good to get a JSON file and not a csv file. 
 
-4. Put the JSON into the mispLLMsGalaxy directory and execute `getTags.py` to get the tags related to every models.
+4. Put the JSON into the mispLLMsGalaxy directory and execute `getTags.py` to get the tags related to every models :
 
     ```
     python getTags.py
@@ -48,7 +48,7 @@ Additional information on model evaluation parameters :
 
     It will create a new JSON named "updated_models.json" using the "open-llm-leaderboard.json" you created earlier. The goal is to go to each model webpage, get the tags related to each LLM and add them to our JSON file. The tags are used as a description for the models since the description files are way too heavy.
 
-5. Use `clustering.py` to get the cluster format.
+5. Use `clustering.py` to get the cluster format :
 
     ```
      clustering.py
