@@ -7,7 +7,7 @@ The goal is to create a JSON file that contains every opensource LLMs and their 
 I could not be more precise about the descriptions of the models being given the size of the files and the large number of  models. That is why, my description fields includes the different tags used to qualify the models.
 I had some issues regarding the scraping of the site https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard since all the data is loaded dynamically and I have not succeeded in getting access to the api to make my own requests. That is why I use the scrape-open-llm-leaderboard tool.
 
-##Source
+## Source :
 
 open_llm_leaderboard : https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
 
@@ -50,7 +50,7 @@ Additional information on model evaluation parameters :
 5. Use `clustering.py` to get the cluster format.
 
     ```
-    python clustering.py
+     clustering.py
     ```
 
     Congratulations, if everything was done correctly, you should find the cluster in the directory "clusters". At each use the cluster file is replaced.
