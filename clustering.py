@@ -8,7 +8,7 @@ def transform_json(input_json):
             "Bastien PAZZAGLIA, Arnaud PISTER"
         ],
         "category": "Artifial Intelligence",
-        "description": "Gathering of all opensource LLMs",
+        "description": "Gathering of all opensource LLMs with their scores",
         "name": "openLLM",
         "source": "open_llm_leaderboard",
         "type": "LLMs",
