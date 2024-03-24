@@ -1,5 +1,5 @@
-# mispLLMsGalaxy
-A galaxy of opensource LLMs
+### mispLLMsGalaxy
+A MISP-compatible galaxy of opensource LLMs.
 
 ## Description
 
