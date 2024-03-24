@@ -1,0 +1,11 @@
+{
+{
+    "description": "Gathering of all opensource LLMs with their scores",
+    "icon": "LLMs",
+    "authors": [
+        "Bastien PAZZAGLIA, Arnaud PISTER"
+    ],
+    "type": "opensource-LLMs",
+    "uuid": "dc2e5e6f-b267-4328-9219-ccfe15d62425",
+    "version": 1
+}
