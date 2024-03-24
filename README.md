@@ -8,7 +8,9 @@ Use this project in order to extract a json file that contains every public mode
 
 https://github.com/Weyaxi/scrape-open-llm-leaderboard
 
-Then execute main.py to get the tags related to every model and to get a cluster.
+Then execute getTags.py to get the tags related to every models.
+
+Finally use clustering.py to get the cluster format.
 
 
 
