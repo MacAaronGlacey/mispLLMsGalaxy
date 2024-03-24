@@ -52,7 +52,7 @@ Additional information on model evaluation parameters :
     ```
 
 
-    It will create a new JSON named "updated_models.json" using the "open-llm-leaderboard.json" you created earlier. The goal is to go to each model webpage, get the tags related to each LLM and add them to our JSON file. The tags are used as a description for the models since the description files are way too heavy.
+    It will create a new JSON named "updated_models.json" using the "open-llm-leaderboard.json" you created earlier. The goal is to go to each model webpage, get the tags related to each LLM and add them to our JSON file. The tags are used as a description for the models since the description files are way too heavy. It can take a while since there are load of models (I might improve the script by adding multithreading).
 
 
 5. Use `clustering.py` to get the cluster format :
