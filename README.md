@@ -22,11 +22,13 @@ Additional information on model evaluation parameters :
  
 ## How to use :
 
+
 1. Clone the project :
 
     ```
     git clone https://github.com/MacAaronGlacey/mispLLMsGalaxy.git
     ```
+
 
 2. Go to the project directory :
 
@@ -36,23 +38,30 @@ Additional information on model evaluation parameters :
 
 3. Use this project in order get a JSON file that contains every public model from the open_llm_leaderboard :
 
+
     [scrape-open-llm-leaderboard](https://github.com/Weyaxi/scrape-open-llm-leaderboard)
 
     Do not forget to specify the JSON format for good to get a JSON file and not a csv file. 
 
+
 4. Put the JSON into the mispLLMsGalaxy directory and execute `getTags.py` to get the tags related to every models :
+
 
     ```
     python getTags.py
     ```
 
+
     It will create a new JSON named "updated_models.json" using the "open-llm-leaderboard.json" you created earlier. The goal is to go to each model webpage, get the tags related to each LLM and add them to our JSON file. The tags are used as a description for the models since the description files are way too heavy.
 
+
 5. Use `clustering.py` to get the cluster format :
+
 
     ```
      clustering.py
     ```
+
 
     Congratulations, if everything was done correctly, you should find the cluster in the directory "clusters". At each use the cluster file is replaced.
 
